@@ -1,0 +1,81 @@
+.navBar {
+  background-color: #0a133c;
+  color: white;
+  padding: 1rem;
+}
+
+/* .navBar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  } */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.active {
+  color: #96d1e4;
+  font-weight: bold;
+}
+
+.auth {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+}
+
+.navBarLeft {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex: 1;
+}
+
+#icon {
+  /* width: 50px; */
+  margin-right: 5px;
+}
+
+h1 {
+  font-weight: lighter;
+}
+.navBarCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+}
+
+.navBarRight {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.navTabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 25%;
+}
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.greeting {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
